@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo 'script start'
+echo 'script start $MA_VARIABLE'
 if [[ -z $1 ]];
 then 
     echo "No parameter passed."

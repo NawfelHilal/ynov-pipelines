@@ -15,3 +15,5 @@ jobs:
         run: pwd
       - name: Run example script
         run: bash ./scripts/example.sh Ynov
+        env:
+          MA_VARIABLE: production
