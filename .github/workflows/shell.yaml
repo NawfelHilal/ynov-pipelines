@@ -6,6 +6,7 @@ on:
     - '.github/workflows/*.yaml'
 jobs:
   example-job:
+    name: shell
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
